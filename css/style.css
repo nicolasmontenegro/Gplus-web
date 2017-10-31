@@ -1,0 +1,145 @@
+/* Left col*/ 
+.redBackground{
+	background-color: #C2001A;
+}
+@media(max-width:767px){
+	.redBackground{
+		height: 74px;
+	}
+}
+@media(min-width:768px){
+	.redBackground{
+		height: 100vh;
+	}
+}
+/* Contact Links */
+#contact{
+	bottom: 82px;
+	position: absolute;
+	width: 80%;
+}
+#contact p{
+	margin: 0px;
+	color: white;
+	font-size: 80%; 
+}
+#contact a, #contact a:hover, #contact a:link, #contact a:visited{
+	color: white;
+	text-decoration:none;  
+}
+/* Logo */
+#logoDiv{
+	background-color: #FFFFFF;
+	bottom: 15px;
+	position: absolute;
+	left: 0px;
+	width: 100%;
+}
+/*#logoDiv img{
+	float: right;
+}*/
+/* Content */
+@media(max-width:575px){
+	.colTile{
+		min-height: 90px
+	}
+	#barba-wrapper{
+		height: auto !important;
+	}
+	.rowTile{
+		min-height: 120px !important;
+		height: auto !important;
+
+	}
+}
+@media(max-width:767px){
+	#barba-wrapper{
+		height:calc(100vh - 74px);
+	}
+	.rowTile{
+		height: calc((100vh - 74px) / 3);
+		min-height: 120px;
+	}
+}
+@media(min-width:768px){
+
+	#barba-wrapper{
+		height:100vh;
+	}
+	.rowTile{
+		height: calc(100vh / 3);
+		min-height: 120px;
+	}
+}
+.colTile, .colTileHead{
+	padding: 0px;
+	background-color: #EEEEEE;
+}
+.tileHeadImg{
+	height: 100%;
+	width: 100%;
+	background-position: center;
+	background-size: cover;
+}
+/* tileTitle */
+.tileTitle{
+	position: inherit;
+	bottom: 60%;
+	right: 1em;
+	color: white;
+	text-align: right;
+	color: white;
+}
+.tileHeadTitle{
+}
+.tileTitleLink{
+	-webkit-transition: opacity 0.35s ease-out;
+	   -moz-transition: opacity 0.35s ease-out;
+	     -o-transition: opacity 0.35s ease-out;
+	        transition: opacity 0.35s ease-out;
+	opacity: 1;
+}
+.tileImg{
+	-webkit-transition: filter 0.35s ease-out;
+	   -moz-transition: filter 0.35s ease-out;
+	     -o-transition: filter 0.35s ease-out;
+	        transition: filter 0.35s ease-out;
+
+	height: 100%;
+	width: 100%;
+	filter: grayscale(100%) contrast(50%);
+	background-position: center;
+	background-size: cover;
+}
+.colTile:hover .tileImg {
+	filter: grayscale(0%) contrast(60%);
+}
+.tileColor{
+	-webkit-transition: filter 0.35s ease-out;
+	   -moz-transition: filter 0.35s ease-out;
+	     -o-transition: filter 0.35s ease-out;
+	        transition: filter 0.35s ease-out;
+
+	height: 100%;
+	width: 100%;
+	filter: grayscale(100%) contrast(50%);
+	background-position: center;
+	background-size: cover;
+}
+.colTile:hover .tileColor {
+	filter: grayscale(0%) contrast(100%);
+}
+/*.colTile:hover .tileTitle{
+	opacity: 0.2;
+}*/
+.colTile > *{
+	cursor: pointer;
+}
+svg-icon svg {
+	padding-top: 2px;
+	width:14px !important;
+	height:14px !important;
+}
+.si-glyph-fill{
+	fill: white;
+}
