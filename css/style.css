@@ -83,8 +83,8 @@
 }
 /* tileTitle */
 .tileTitle{
-	position: inherit;
-	bottom: 60%;
+	position: absolute;
+	bottom: 40%;
 	right: 1em;
 	color: white;
 	text-align: right;
