@@ -73,7 +73,7 @@
 }
 .colTile, .colTileHead{
 	padding: 0px;
-	background-color: #EEEEEE;
+	background-color: #555555;
 }
 .tileHeadImg{
 	height: 100%;
@@ -89,6 +89,7 @@
 	color: white;
 	text-align: right;
 	color: white;
+	z-index: 3;
 }
 .tileHeadTitle{
 }
