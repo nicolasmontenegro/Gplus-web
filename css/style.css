@@ -29,7 +29,7 @@
 }
 /* Logo */
 #logoDiv{
-	background-color: #FFFFFF;
+	background-color: rgba(255, 255, 255, 1);
 	bottom: 15px;
 	position: absolute;
 	left: 0px;
@@ -83,10 +83,10 @@
 /* column style */
 .colTile, .colTileHead{
 	padding: 0px;
-	background-color: #C2001A;
+	background-color: rgba(194, 0, 26, 1);
 }
 .barba-container:hover .colTileHead{
-	background-color: #C2001A;
+	background-color: rgba(194, 0, 26, 1);
 }
 /* head */ 
 .tileHeadImg{
@@ -110,7 +110,7 @@
 }
 .tileTitle:not(.tileHeadTitle){
 	text-shadow: 0px 0px 2px rgb(0, 0, 0);
-	background-color: #55555580;
+	background-color: rgba(85, 85, 85, .8);
 
 	-webkit-transition: background-color 0.35s ease-out;
 	   -moz-transition: background-color 0.35s ease-out;
@@ -159,7 +159,7 @@
 	filter: grayscale(100%) contrast(50%);
 	background-position: center;
 	background-size: cover;
-	background-color: #C2001A;
+	background-color: rgba(194, 0, 26, 1);
 	position: absolute; 
  	top: 0px;
  	z-index: 1; 
@@ -171,7 +171,7 @@
 	filter: grayscale(0%) contrast(100%);
 }
 .colectionLinks:hover .colTile:hover .tileTitle:not(.tileHeadTitle){
-	background-color: #C2001A80;
+	background-color: rgba(194, 0, 26, .8);
 }
 
 
@@ -190,4 +190,7 @@ svg-icon svg {
 }
 .si-glyph-fill{
 	fill: white;
+}
+br{
+	line-height:5px;
 }
