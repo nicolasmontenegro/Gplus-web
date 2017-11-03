@@ -58,6 +58,9 @@
 @media(max-width:767px){
 	#barba-wrapper{
 		height:calc(100vh - 74px);
+		max-height:calc(100vh - 74px);
+		overflow-y: auto;
+		overflow-x: hidden;
 	}
 	.rowTile{
 		height: calc((100vh - 74px) / 3);
@@ -68,6 +71,9 @@
 
 	#barba-wrapper{
 		height:100vh;
+		max-height: 100vh;
+		overflow-y: auto;
+		overflow-x: hidden;
 	}
 	.rowTile{
 		height: calc(100vh / 3);
@@ -136,7 +142,7 @@
  
 }
 .colectionLinks:hover .colTile:not(:hover) .tileImg{
-	filter: grayscale(100%) contrast(20%);
+	filter: grayscale(100%) contrast(50%);
 }
 .colectionLinks:hover .colTile:hover .tileImg{
 	filter: grayscale(0%) contrast(100%);
